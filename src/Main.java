@@ -1,8 +1,9 @@
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String args[]) {
         String jmenoPrijmeni = "Dana Bartunkova";
-        //LocalDate datumNarozeni = 1990-03-16;
+        String datumNarozeni = "1990-03-16";
         int pocetSmluv = 3;
         double mnozstviMrkve = 50;
         String mesto = "Ostrov nad Oslavou";
