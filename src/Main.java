@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String args[]) {
         String jmenoPrijmeni = "Dana Bartunkova";
-        String datumNarozeni = "1990-03-16";
+        LocalDate datumNarozeni = LocalDate.of(1990,3,16);
         int pocetSmluv = 3;
         double mnozstviMrkve = 50;
         String mesto = "Ostrov nad Oslavou";
